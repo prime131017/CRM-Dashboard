@@ -100,10 +100,30 @@ body {
 .nav-menu :hover {
     background-color: #5932EA;
     color: #fff;
-    transition:
-        background-color 1s,
-        transform 1s;
+   
 }
+
+.color_fill{
+    fill: #9197B3;
+}
+
+.color_stroke{
+    stroke: #9197B3;
+}
+
+.nav-menu :hover  .color_fill {
+    fill: #fff;
+}
+
+.nav-menu :hover  .color_stroke {
+   stroke: #fff;
+}
+/* .nav-menu svg :hover >  path {
+    stroke: red;
+} */
+/* .nav-menu :hover > svg path{
+    stroke: red;
+} */
 
 .user {
     display: flex;
@@ -391,10 +411,10 @@ table th:first-child {
     color: #000;
 }
 
-.dropbtn:hover,
-.dropbtn:focus {
+/* .dropbtn :hover,
+.dropbtn :focus {
     background-color: #2980B9;
-}
+} */
 
 .dropdown {
     position: relative;
